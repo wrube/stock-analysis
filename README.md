@@ -18,12 +18,25 @@ This VBA script requires that each sheet within the Excel Workbook has the stock
 
 
 ## Installation
-The Excel Spreadsheet should saved as a macro enabled .xlsm file extension with an attached VBA script. 
+Please download and add to your macro-enabled spreadsheet the *stock_analsis.bas* script located in this repository. 
+
+![install vba script](pictures/install%20module.png)
 
 ## Usage
-This macro can be enabled and run by selecting Macro in the Excel Developers Tab. Please ensure that this tab is enabled in your Excel settings.
+This macro can be enabled and run by selecting Macro in the Excel Developers Tab. Please ensure that this feature is enabled in your Excel settings. Click and Run the *stock_analysis_summary* macro.
 
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+![enable and run macro](pictures/running_stock_analysis_macro.png)
+
+Please note that there is also a macro *clear_columns_J_to_Z* which can be run to clear the results after the macro is run.
+
+The results table and summary table should look something like:
+
+![results example](pictures/results_output_example.png)
+
+If the user wishes to control which column to start the yearly ticker summary, they may change this by editing the `results_column_num_start` variable.
+
+![modify result table staring column](pictures/user_control_starting_column_number.png)
+
 
 ## Support
 Please email bjminwruck@gmail.com if the user has encountered any bugs or issues.
