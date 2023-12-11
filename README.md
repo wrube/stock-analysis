@@ -31,7 +31,9 @@ Please note that there is also a macro *clear_columns_J_to_Z* which can be run t
 
 The results table and summary table should look something like:
 
-![results example](pictures/results_output_example.png)
+![results example](pictures/results_2018.png)
+![results example](pictures/results_2019.png)
+![results example](pictures/results_2020.png)
 
 If the user wishes to control which column to start the yearly ticker summary, they may change this by editing the `results_column_num_start` variable.
 
