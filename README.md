@@ -18,7 +18,7 @@ This VBA script requires that each sheet within the Excel Workbook has the stock
 
 
 ## Installation
-Please download and add to your macro-enabled spreadsheet the *stock_analsis.bas* script located in this repository. 
+Please download and add to your macro-enabled spreadsheet the `stock_analsis.vba` script located in this repository. 
 
 ![install vba script](pictures/install%20module.png)
 
